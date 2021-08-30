@@ -1,0 +1,12 @@
+<intellij-compat>
+    <name>Skunk support</name>
+    <description>This provides type inference for skunk macros</description>
+    <version>0.1</version>
+    <vendor>Thibaut Robert</vendor>
+    <ideaVersion since-build="2018.1.0" until-build="2021.3">
+        <extension interface="org.jetbrains.plugins.scala.lang.macros.evaluator.ScalaMacroExpandable"
+                   implementation="org.trobert.SkunkSupport">
+            <description>Support for sql interpolator macro</description>
+        </extension>
+    </ideaVersion>
+</intellij-compat>
